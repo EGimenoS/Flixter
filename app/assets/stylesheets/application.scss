@@ -11,3 +11,7 @@
  *= require_self
  *= require_tree .
  */
+
+@import "bootstrap-sprockets";
+$screen-sm:600px;
+@import "bootstrap";
