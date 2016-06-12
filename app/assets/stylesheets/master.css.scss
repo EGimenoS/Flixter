@@ -1,26 +1,15 @@
 
 @import url(https://fonts.googleapis.com/css?family=Acme);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
 
  body {
 
   background: url('/assets/brickwall.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 
-}
-.navbar-brand img{
-  height: 250%;
-  margin-top: -12px;
-}
-
-
-.navbar-brand {
-
-  font-family: 'Acme' , sans-serif;
-  font-size: 60px;
-  font-weight:  600;
-  
 }
 
 
@@ -67,4 +56,33 @@ frosty h2 {
 
 .btn {
   border-radius: 0;
+}
+
+.logo  {
+  height: 250%;
+  margin-top: -12px;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
+}
+
+.appname {
+  font-family: 'Acme', sans-serif;
+  font-size: 65px;
+  margin-top: 5px;
+}
+
+.clr {
+  clear:both;
 }
