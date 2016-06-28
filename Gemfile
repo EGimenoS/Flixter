@@ -53,4 +53,6 @@ gem 'devise'
 gem 'carrierwave'
 gem "awesome_print", require:"ap"
 gem "figaro", ">= 1.0.0"
-gem "fog"
+#gem "fog"
+gem 'mini_magick', '~> 4.3.1'
+gem 'carrierwave-aws'
