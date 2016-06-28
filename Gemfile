@@ -50,4 +50,7 @@ gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'carrierwave'
 gem "awesome_print", require:"ap"
+gem "figaro", ">= 1.0.0"
+gem "fog"
