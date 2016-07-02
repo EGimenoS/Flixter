@@ -7,10 +7,10 @@ before_action :require_enrollment, only: [:show]
   private
 
   def require_enrollment
-    if current_user.enrolled_in?(current_lesson.section.course)
+    if current_user.enrolled_in?(current_lesson.section.course) || current_user == current_lesson.section.course.user
       return true
     else
-        redirect_to course_path(current_lesson.section.course), alert: 'Please enroll in the course to check the lesons'
+        redirect_to course_path(current_lesson.section.course), alert: 'Please enroll in the course to check the lessons'
     end
   end
 
