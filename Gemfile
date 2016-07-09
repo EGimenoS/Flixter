@@ -57,3 +57,5 @@ gem "figaro", ">= 1.0.0"
 gem 'mini_magick', '~> 4.3.1'
 gem 'carrierwave-aws'
 gem 'stripe'
+gem 'ranked-model'
+gem 'jquery-ui-rails'

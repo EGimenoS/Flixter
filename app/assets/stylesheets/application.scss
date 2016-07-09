@@ -11,7 +11,10 @@
  *= require_self
  *= require_tree .
  */
-
+/*
+ *= require jquery-ui
+ */
+ 
 @import "bootstrap-sprockets";
 $screen-sm:600px;
 @import "bootstrap";
