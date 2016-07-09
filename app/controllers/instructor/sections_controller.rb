@@ -9,6 +9,7 @@ class Instructor::SectionsController < ApplicationController
 
   def update
     current_section.update_attributes(section_params)
+    render text: 'ok!'
   end
 
   def create
@@ -41,7 +42,7 @@ class Instructor::SectionsController < ApplicationController
 
   helper_method :current_section
   def current_section
-    current_section ||= Section.find(params[:section_id])
+    current_section ||= Section.find(params[:id])
   end
 
   def section_params
